@@ -174,7 +174,7 @@ class ImageEdittingTool(Tk):
             newWidth = int(sizeToReduce * imageWidth)
             newHeight = int(sizeToReduce * imageHeight)
             self.image.reduceImageDimesion((newWidth, newHeight))
-            self.edittedImage = self.image
+        self.edittedImage = self.image
 
     def __placeImageInCanvas(self):
         x, y = self.__getPositionOfImage()
